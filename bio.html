@@ -7,13 +7,8 @@
   <title>About Asheef Iqubbal</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="common/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <style>
-    /* body {
-      font-family: Georgia, serif;
-      line-height: 1.8;
-      padding: 3rem;
-    } */
-
     .highlight {
       color: #c47c00;
     }
@@ -43,78 +38,84 @@
   </style>
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
 
   <!-- Header -->
   <div id="header"></div>
 
-  <div class="container">
-    <div class="row align-items-start">
-      <div class="col-md-8">
-        <h1>About Me</h1>
-        <p>
-          I am <strong>Asheef Iqubbal</strong>, currently working as a
-          <span class="highlight">Senior Research Associate</span> at
-          <a href="https://cuts-ccier.org" target="_blank">CUTS International (CCIER)</a>, Jaipur.
-          My work focuses on <span class="highlight">digital rights</span>,
-          <span class="highlight">data governance</span>,
-          <span class="highlight">emerging technologies</span>, and
-          <span class="highlight">platform regulation</span>. I contribute to
-          evidence-based policy discussions through detailed research and analysis.
-        </p>
+  <!-- Main Content -->
+  <main class="flex-grow-1">
+    <div class="container py-4">
+      <div class="row align-items-start">
+        <div class="col-md-8">
+          <h1>About Me</h1>
+          <p>
+            I am <strong>Asheef Iqubbal</strong>, currently working as a
+            <span class="highlight">Senior Research Associate</span> at
+            <a href="https://cuts-ccier.org" target="_blank">CUTS International (CCIER)</a>, Jaipur.
+            My work focuses on <span class="highlight">digital rights</span>,
+            <span class="highlight">data governance</span>,
+            <span class="highlight">emerging technologies</span>, and
+            <span class="highlight">platform regulation</span>. I contribute to
+            evidence-based policy discussions through detailed research and analysis.
+          </p>
 
-        <p>
-          Born on <strong>8th July 1994</strong>, I hold <span class="highlight">Indian nationality</span>. I earned my
-          <span class="highlight">Bachelor of Technology in Mechanical Engineering</span> from
-          Maharshi Dayanand University (2016) and pursued a
-          <span class="highlight">Master of Arts in Social Exclusion & Inclusive Policy</span> from
-          <a href="https://www.jmi.ac.in/" target="_blank">Jamia Millia Islamia</a> in 2024.
-        </p>
+          <p>
+            Born on <strong>8th July 1994</strong>, I hold <span class="highlight">Indian nationality</span>. I earned my
+            <span class="highlight">Bachelor of Technology in Mechanical Engineering</span> from
+            Maharshi Dayanand University (2016) and pursued a
+            <span class="highlight">Master of Arts in Social Exclusion & Inclusive Policy</span> from
+            <a href="https://www.jmi.ac.in/" target="_blank">Jamia Millia Islamia</a> in 2024.
+          </p>
 
-        <p>
-          I bring diverse professional experience. Since <strong>February 2022</strong>, I’ve been at CUTS. Before this,
-          I worked at the
-          <span class="highlight">Digital Empowerment Foundation</span> (2019–2021) and served as a
-          <span class="highlight">Ground Correspondent</span> at NewsCentral24x7 (2018–2019).
-        </p>
+          <p>
+            I bring diverse professional experience. Since <strong>February 2022</strong>, I’ve been at CUTS. Before this,
+            I worked at the
+            <span class="highlight">Digital Empowerment Foundation</span> (2019–2021) and served as a
+            <span class="highlight">Ground Correspondent</span> at NewsCentral24x7 (2018–2019).
+          </p>
 
-        <p>
-          Some of the <strong>key projects</strong> I've led or contributed to include:
-          <em>Economic Analysis of Verifiable Parental Consent Mechanisms</em>,
-          <em>Deepfake Advisory Analysis</em>,
-          <em>Multi-Party Privacy in Digital Credit</em>,
-          <em>Ease of Doing Digital Business in India</em>,
-          <em>Status of E-Consumers in India</em>, and
-          <em>Ethical 6G Framework between India and Australia</em>.
-        </p>
+          <p>
+            Some of the <strong>key projects</strong> I've led or contributed to include:
+            <em>Economic Analysis of Verifiable Parental Consent Mechanisms</em>,
+            <em>Deepfake Advisory Analysis</em>,
+            <em>Multi-Party Privacy in Digital Credit</em>,
+            <em>Ease of Doing Digital Business in India</em>,
+            <em>Status of E-Consumers in India</em>, and
+            <em>Ethical 6G Framework between India and Australia</em>.
+          </p>
 
-        <p>
-          My <strong>publications</strong> address data protection, healthcare data, AI governance, and digital economy.
-          Recent writings include: <em>The ‘Parental Consent’ Problem with DPDP Rules</em>,
-          <em>Standardising Standard Setting for 6G</em>,
-          <em>Dealing with the Menace of Gen-AI Fakes</em>, and
-          <em>The E-Pharmacy Conundrum</em>.
-        </p>
+          <p>
+            My <strong>publications</strong> address data protection, healthcare data, AI governance, and digital economy.
+            Recent writings include: <em>The ‘Parental Consent’ Problem with DPDP Rules</em>,
+            <em>Standardising Standard Setting for 6G</em>,
+            <em>Dealing with the Menace of Gen-AI Fakes</em>, and
+            <em>The E-Pharmacy Conundrum</em>.
+          </p>
 
-        <p>
-          I continue to engage in shaping India’s digital future through collaborative research, writing, and policy
-          dialogue.
-        </p>
-      </div>
+          <p>
+            I continue to engage in shaping India’s digital future through collaborative research, writing, and policy
+            dialogue.
+          </p>
+        </div>
 
-      <div class="col-md-4 image-section">
-        <img src="image/asheef.jpg" alt="Asheef Iqubbal Photo" />
+        <div class="col-md-4 image-section">
+          <img src="image/asheef.jpg" alt="Asheef Iqubbal Photo" />
+        </div>
       </div>
     </div>
-  </div>
+  </main>
 
   <!-- Footer -->
   <div id="footer"></div>
 
+  <!-- Header & Footer Fetch -->
   <script>
-    fetch("common/header.html")
-      .then(response => response.text())
-      .then(data => document.getElementById("header").innerHTML = data);
+     fetch("common/header.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("header").innerHTML = data;
+    });
 
     fetch("common/footer.html")
       .then(response => response.text())

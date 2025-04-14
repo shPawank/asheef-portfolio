@@ -21,18 +21,19 @@ header {
 }
 
 .header-bottom {
-  background-color: #cce7ff;
+  background-color: #0a1d37;
+  color: white;
   padding: 0.8rem 1rem;
 }
 
 .brand-name {
   font-size: 1.8rem;
   font-weight: 600;
-  color: #0a1d37;
+  color: White;
 }
 
 .nav .nav-link {
-  color: #0a1d37 !important;
+  color: white !important;
   font-weight: 500;
   position: relative;
 }
@@ -44,8 +45,8 @@ header {
 
 /* Download CV button */
 .btn-cv {
-  background-color: #0a1d37;
-  color: white;
+  background-color:white;
+  color:  white;
   padding: 6px 14px;
   border-radius: 20px;
   text-decoration: none;
@@ -54,7 +55,7 @@ header {
 }
 
 .btn-cv:hover {
-  background-color: #005792;
+  background-color: #fff;
   color: #fff;
 }
 
@@ -83,3 +84,11 @@ header {
 .btn-cv:hover {
   background-color: #0b5ed7;
 }
+footer {
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.2);
+}
+footer a:hover {
+  color: #ffc107 !important; /* golden hover effect */
+  transition: 0.3s ease;
+}
+
